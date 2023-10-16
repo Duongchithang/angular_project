@@ -1,0 +1,31 @@
+<div class="container-fuild container-navigator">
+ <div class="container">
+  <div class="container-navigator-main">
+    <div class="row">
+      <div class="col-9">
+        <div class="row">
+          <div class="col-4">
+            <div class="row container-head-navigator">
+              <div class="col-2">Icon</div>
+              <div class="col-9">Danh mục sản phẩm</div>
+            </div>
+          </div>
+          <!-- menu navbar -->
+          <div class="col-8 row align-items-center">
+            <ul class="list-menu-header row justify-content-center">
+              <li class="col-2 " *ngFor="let item of ListMenu">
+                <a class="item-menu-header" [routerLink]="item.PrefixUrl">{{ item.NameItemMenu }}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row account-height align-items-center">
+          <h1 class="head-account text-end">Tài khoản</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>

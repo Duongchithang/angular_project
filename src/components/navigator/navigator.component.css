@@ -1,0 +1,31 @@
+.container-navigator{
+    background-color: #23B55C;
+    padding: 20px 0 20px 0;
+    height: 100px;
+}
+.container-head-navigator{
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.list-menu-header{
+    list-style: none;
+}
+.item-menu-header{
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+.item-menu-header:hover{
+    color: black;
+}
+.head-account{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.account-height{
+    height: 100%;
+}

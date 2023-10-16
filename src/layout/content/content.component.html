@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="container-content">
+    <div class="row">
+      <div class="col-3">
+        <app-Category></app-Category>
+      </div>
+      <div class="col-9">
+        <h1 class="mt-4 head-text-content">Rinnai</h1>
+        <p class="text-description">
+          <span class="text-description-bold">Công ty TNHH Rinnai Việt Nam</span> là một trong những chi nhánh của Tập đoàn
+          Rinnai. Công ty Rinnai Việt Nam có nhà máy và văn phòng chính đặt tại
+          Khu công nghiệp Đồng An – thị xã Thuận An, tỉnh Bình Dương. Chủ tịch
+          hội đồng quản trị Công ty Rinnai Việt Nam là ông Susumu Naito. Công ty
+          TNHH Rinnai Việt Nam sản xuất các sản phẩm bếp gas , máy hút khói, bếp
+          tủ, máy sấy chén, nồi cơm gas... với hai nhà máy sản xuất . Trong 6
+          năm liên tiếp, thương hiệu Rinnai được người tiêu dùng bình chọn là
+          hàng Việt Nam chất lượng cao do báo Sài Gòn Tiếp Thị tổ chức.
+        </p>
+        <div class="list-product">
+          <div class="row">
+           <div class="col-4 mb-5" *ngFor="let item of ListProduct">
+             <app-ProductDetail [DataProductDetail]="item"></app-ProductDetail>
+          </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <button class="col-2 text-center mb-5 btn-see-all">Xem tất cả</button>
+        </div>
+        <!-- <div class="container-discount px-5">
+          <h1 class="text-discount">Khuyến mãi</h1>
+        </div> -->
+
+      </div>
+      
+    </div>
+  </div>
+</div>

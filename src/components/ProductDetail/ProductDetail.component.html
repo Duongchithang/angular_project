@@ -1,0 +1,16 @@
+<div class="product-detail cursor-pointer">
+  <div class="container-image">
+    <img
+      class="container-image-product"
+      [src]="DataProductDetail.ProductImagePath"
+    />
+  </div>
+  <div>
+    <h1 class="text-product-name text-center mt-2">
+      {{ DataProductDetail.ProductName }}
+    </h1>
+    <h1 class="text-product-price text-center mt-2">
+      {{ formattedAmount }}
+    </h1>
+  </div>
+</div>

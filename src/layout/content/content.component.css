@@ -1,0 +1,29 @@
+.text-description{
+   color: #7c7c7c;
+}
+.head-text-content{
+    font-size: 24px;
+}
+.text-description-bold{
+    color: #7c7c7c;
+    font-weight: bolder;
+}
+.btn-see-all{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #23B55C;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+}
+.btn-see-all:hover{
+    background-color: black;
+}
+.container-discount{
+    background-color: #d4d3d3;
+}
+.text-discount{
+    font-size: 20px;
+    height: 80px;
+}
